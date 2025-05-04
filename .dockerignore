@@ -1,0 +1,32 @@
+# .dockerignore file for CSV Validation App
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment folders
+venv/
+.env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor configurations
+.vscode/
+.idea/
+
+# Ignore git metadata
+.git/
+.gitignore
+
+# Ignore unnecessary local files
+*.log
+*.sqlite3
+*.bak
+
+# Optionally, ignore large datasets or testing files if any
+# data/
+# test/
